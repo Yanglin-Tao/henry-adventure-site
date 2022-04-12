@@ -1,0 +1,108 @@
+h1.heading{
+    font-family:verdana;
+    text-align:center;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 10px;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+p.center{
+    font-family:verdana;
+    text-align:center;
+    font-weight: bold;
+}
+a.button{
+    border: 1px solid coral;
+    background-color: coral;
+    padding: 10px 10px;
+}
+p.intro{
+    font-family:verdana;
+    padding: 20px 40px;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+details{
+    font-family:"Courier New";
+    padding: 20px 40px;
+    text-align:center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-image: url("paper_texture.jpg");
+    background-size: cover;
+}
+.topnav {
+    font-family:verdana;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: coral;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: coral;
+    color: white;
+}
+
+.buttonnav {
+    font-family:verdana;
+    background-color: coral;
+    overflow: hidden;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+/* Change the color of links on hover */
+.buttonnav a:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.buttonnav a.active {
+    background-color: white;
+    color: white;
+}
