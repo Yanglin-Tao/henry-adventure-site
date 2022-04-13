@@ -27,6 +27,23 @@ p.intro{
     margin-right: 10em;
 
 }
+
+p.about{
+    font-family:verdana;
+    padding: 20px 40px;
+    text-align:left;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+span.title{
+    font-family:verdana;
+    font-size: 30px;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -87,36 +104,11 @@ details.exam{
     color: white;
 }
 
-.buttonnav {
-    font-family:verdana;
-    background-color: coral;
-    overflow: hidden;
-    width: 100px;
-    height: 50px;
+footer {
+    width: 100%;
+    bottom:10px;
+    position: fixed;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.buttonnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 17px;
-    text-decoration: none;
-    font-size: 15px;
-    width: 100px;
-    height: 50px;
-}
-
-/* Change the color of links on hover */
-.buttonnav a:hover {
-    background-color: orange;
     color: white;
-}
-
-/* Add a color to the active/current link */
-.buttonnav a.active {
-    background-color: white;
-    color: white;
+    font-weight: bold;
 }
