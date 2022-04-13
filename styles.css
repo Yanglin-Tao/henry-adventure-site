@@ -33,7 +33,7 @@ img {
     margin-right: auto;
     width: 30%;
 }
-details{
+details.manual{
     font-family:"Courier New";
     padding: 20px 40px;
     text-align:center;
@@ -45,6 +45,20 @@ details{
     background-image: url("paper_texture.jpg");
     background-size: cover;
 }
+
+details.exam{
+    font-family:"Courier New";
+    padding: 20px 40px;
+    text-align:center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-image: url("lined_paper.jpg");
+    background-size: cover;
+}
+
 .topnav {
     font-family:verdana;
     background-color: rgba(255, 255, 255, 0.5);
