@@ -2,7 +2,7 @@ h1.heading{
     font-family:verdana;
     text-align:center;
     font-size: 50px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 10px 10px;
     margin-left: 4em;
     margin-right: 4em;
@@ -11,6 +11,11 @@ p.center{
     font-family:verdana;
     text-align:center;
     font-weight: bold;
+}
+p.progress_bar{
+    font-family:verdana;
+    font-weight: bold;
+    margin-left: 2em;
 }
 a.button{
     border: 1px solid coral;
@@ -21,7 +26,7 @@ p.intro{
     font-family:verdana;
     padding: 20px 40px;
     text-align:center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
     margin-left: 10em;
     margin-right: 10em;
@@ -32,7 +37,7 @@ p.about{
     font-family:verdana;
     padding: 20px 40px;
     text-align:left;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     font-size: 17px;
     margin-left: 10em;
     margin-right: 10em;
@@ -55,7 +60,7 @@ details.manual{
     padding: 20px 40px;
     text-align:center;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
     margin-left: 10em;
     margin-right: 10em;
@@ -68,7 +73,7 @@ details.exam{
     padding: 20px 40px;
     text-align:center;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
     margin-left: 10em;
     margin-right: 10em;
@@ -78,7 +83,7 @@ details.exam{
 
 .topnav {
     font-family:verdana;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     overflow: hidden;
 }
 
@@ -112,3 +117,68 @@ footer {
     color: white;
     font-weight: bold;
 }
+
+.progress {
+    position: relative;
+    width: 210px;
+    height: 30px;
+    background: #9cbab4;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress__fill__neg{
+    width: 10%;
+    height: 100%;
+    background: red;
+}
+
+.progress__fill__0{
+    width: 0%;
+    height: 100%;
+    background: #009579;
+}
+
+.progress__fill__25{
+    width: 25%;
+    height: 100%;
+    background: #009579;
+}
+
+.progress__fill__50{
+    width: 50%;
+    height: 100%;
+    background: #009579;
+}
+
+.progress__fill__75{
+    width: 75%;
+    height: 100%;
+    background: #009579;
+}
+
+.progress__fill__100{
+    width: 100%;
+    height: 100%;
+    background: #009579;
+}
+
+.progress__text{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-family:verdana;
+    font-weight: bold;
+}
+
+.bar_set{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 20px;
+}
+
+
