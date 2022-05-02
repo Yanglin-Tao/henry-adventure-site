@@ -57,6 +57,16 @@ p.intro{
     border-radius: 5px;
 }
 
+p.intro_body{
+    font-family:verdana;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 5px;
+}
+
 p.about{
     font-family:verdana;
     padding: 20px 40px;
@@ -80,9 +90,8 @@ img {
     width: 30%;
 }
 details.manual{
-    font-family:"Courier New";
+    font-family: Georgia;
     padding: 20px 40px;
-    text-align:center;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
@@ -94,15 +103,14 @@ details.manual{
 }
 
 details.exam{
-    font-family:"Courier New";
+    font-family: Georgia;
     padding: 20px 40px;
-    text-align:center;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
     margin-left: 10em;
     margin-right: 10em;
-    background-image: url("images/lined_paper.jpg");
+    background-image: url("images/paper_texture.jpg");
     background-size: cover;
     border-radius: 5px;
 }
