@@ -89,6 +89,9 @@ img {
     margin-right: auto;
     width: 30%;
 }
+img.mind_map {
+    display: block;
+}
 details.manual{
     font-family: Georgia;
     padding: 20px 40px;
